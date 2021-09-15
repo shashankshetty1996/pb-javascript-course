@@ -15,3 +15,4 @@ Here this repo is used to store all the study materials for learning JavaScript.
 | 2      | Execution Context |
 | 3      | Loops             |
 | 4      | Array             |
+| 5      | Objects           |
