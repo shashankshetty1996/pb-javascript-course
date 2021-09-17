@@ -16,3 +16,4 @@ Here this repo is used to store all the study materials for learning JavaScript.
 | 3      | Loops             |
 | 4      | Array             |
 | 5      | Objects           |
+| 6      | This & Closure    |
