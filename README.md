@@ -17,3 +17,4 @@ Here this repo is used to store all the study materials for learning JavaScript.
 | 4      | Array             |
 | 5      | Objects           |
 | 6      | This & Closure    |
+| 6      | ES5 vs ES6        |
