@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>DOM and Event Listener</title>
+
+			<style>
+				body {
+					margin: 0;
+					padding: 0;
+				}
+				.list {
+					list-style-type: none;
+					padding: 0;
+					display: flex;
+					background-color: #293fbd;
+					color: #fff;
+				}
+
+				.list li {
+					padding: 16px 8px;
+					cursor: pointer;
+				}
+
+				.list li:hover,
+				.list li.active {
+					background-color: red;
+				}
+			</style>
+	</head>
+	<body>
+			<h1 id="title-banner" title="sort of tooltip">Let's learn DOM and Event Listener in JavaScript 
+				<span style="display: none;">123</span>
+			</h1>
+			<p>Open console. to check the output</p>
+
+			<ul class="list">
+				<li class="list-items">item 1</li>
+				<li class="list-items">item 2</li>
+				<li class="list-items active">item 3</li>
+				<li class="list-items">item 4</li>
+				<li class="list-items">item 5</li>
+			</ul>
+
+			<script src="./001example.js"></script>
+	</body>
+</html>

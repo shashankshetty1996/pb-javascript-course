@@ -104,3 +104,21 @@
 // console.log(total1(4, 5));
 
 // cloning array and object
+// const arr = [1, 2, 3];
+// const arr1 = arr;
+// const arr1 = arr.slice();
+// const arr1 = [...arr];
+// arr1.push(4);
+// console.log(arr);
+// console.log(arr1);
+
+// const person = { hairs: "few remaining", hands: "two" };
+// const obj2 = obj1;
+// const rahul = person;
+// const rahul = Object.assign({}, person);
+// const rahul = { ...person };
+
+// rahul.mouth = "can't talk no mic";
+// rahul.hairs = "spikes guys";
+// console.log(person);
+// console.log(rahul);
