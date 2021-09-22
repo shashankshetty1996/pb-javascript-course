@@ -18,20 +18,75 @@
 					background-color: #293fbd;
 					color: #fff;
 				}
-
+				
 				.list li {
 					padding: 16px 8px;
 					cursor: pointer;
 				}
-
+				
 				.list li:hover,
 				.list li.active {
 					background-color: red;
 				}
+				
+				#box {
+					background-color: #293fbd;
+					color: white;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-direction: column;
+					gap: 16px;
+					height: 200px;
+					margin: 24px 0;
+				}
+
+				.centre {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+				form div {
+					margin: 8px 16px;
+					display: flex;
+					flex-direction: column;
+					gap: 4px;
+				}
+
+				form button {
+					cursor: pointer;
+					margin: 16px 0;
+					padding: 8px 0;
+				}
+
+				/* #output {
+					margin: 8px 0;
+					padding: 32px 16px;
+					background-color: #c0c1cc;
+				} */
+
+				#outer {
+					background-color: #293fbd;
+					height: 300px;
+					width: 400px;
+					margin: 0 auto;
+				}
+				#inner {
+					background-color: #c0c1cc;
+					height: 80%;
+					margin: 36px 72px;
+				}
+				#very-inner {
+					background-color: red;
+					height: 60%;
+					width: 60%;
+					margin: 0 auto;
+				}
 			</style>
 	</head>
 	<body>
-			<h1 id="title-banner" title="sort of tooltip">Let's learn DOM and Event Listener in JavaScript 
+			<!-- <h1 id="title-banner" title="sort of tooltip">Let's learn DOM and Event Listener in JavaScript 
 				<span style="display: none;">123</span>
 			</h1>
 			<p>Open console. to check the output</p>
@@ -42,8 +97,40 @@
 				<li class="list-items active">item 3</li>
 				<li class="list-items">item 4</li>
 				<li class="list-items">item 5</li>
-			</ul>
+			</ul> -->
 
-			<script src="./001example.js"></script>
+			<div id="outer">
+				<div id="inner">
+					<div id="very-inner"></div>
+				</div>
+			</div>
+
+			<!-- <form>
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" name="name">
+				</div>
+				<div>
+					<label for="password">Password: </label>
+					<input type="password" name="password">
+				</div>
+				<div>
+					<button type="submit" id="btn">Submit</button>
+				</div>
+
+				<div id="output"></div>
+			</form> -->
+
+			<!-- <div id="box">
+				Box
+				<span style="border: 1px solid red; padding: 8px;">Lorem ipsum dolor sit amet.</span>
+			</div>
+			<div class="centre">
+				<button id="btn">Click me</button>
+				<button id="btn1">Click me 1</button>
+					<button id="btn2">Click me 2</button>
+			</div> -->
+
+			<script src="./004example.js"></script>
 	</body>
 </html>

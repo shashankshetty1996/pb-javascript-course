@@ -62,3 +62,14 @@
 // console.log(title.getAttribute("title"));
 // title.setAttribute("title", "Wow something new");
 // console.log(title.getAttribute("title"));
+
+// Homework
+/**
+ * document.createElement
+ * document.createTextNode
+ * document.appendChild
+ * document.removeChild
+ * document.insertBefore
+ * childNode
+ * parentNode
+ */
