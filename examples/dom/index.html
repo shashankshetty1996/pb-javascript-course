@@ -1,92 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-			<meta charset="UTF-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<title>DOM and Event Listener</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM and Event Listener</title>
 
-			<style>
-				body {
-					margin: 0;
-					padding: 0;
-				}
-				.list {
-					list-style-type: none;
-					padding: 0;
-					display: flex;
-					background-color: #293fbd;
-					color: #fff;
-				}
-				
-				.list li {
-					padding: 16px 8px;
-					cursor: pointer;
-				}
-				
-				.list li:hover,
-				.list li.active {
-					background-color: red;
-				}
-				
-				#box {
-					background-color: #293fbd;
-					color: white;
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					flex-direction: column;
-					gap: 16px;
-					height: 200px;
-					margin: 24px 0;
-				}
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        background-color: #293fbd;
+        color: #fff;
+      }
 
-				.centre {
-					display: flex;
-					justify-content: center;
-					align-items: center;
-				}
+      .list li {
+        padding: 16px 8px;
+        cursor: pointer;
+      }
 
-				form div {
-					margin: 8px 16px;
-					display: flex;
-					flex-direction: column;
-					gap: 4px;
-				}
+      .list li:hover,
+      .list li.active {
+        background-color: red;
+      }
 
-				form button {
-					cursor: pointer;
-					margin: 16px 0;
-					padding: 8px 0;
-				}
+      #box {
+        background-color: #293fbd;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        height: 200px;
+        margin: 24px 0;
+      }
 
-				/* #output {
+      .centre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      form div {
+        margin: 8px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      form button {
+        cursor: pointer;
+        margin: 16px 0;
+        padding: 8px 0;
+      }
+
+      /* #output {
 					margin: 8px 0;
 					padding: 32px 16px;
 					background-color: #c0c1cc;
 				} */
 
-				#outer {
-					background-color: #293fbd;
-					height: 300px;
-					width: 400px;
-					margin: 0 auto;
-				}
-				#inner {
-					background-color: #c0c1cc;
-					height: 80%;
-					margin: 36px 72px;
-				}
-				#very-inner {
-					background-color: red;
-					height: 60%;
-					width: 60%;
-					margin: 0 auto;
-				}
-			</style>
-	</head>
-	<body>
-			<!-- <h1 id="title-banner" title="sort of tooltip">Let's learn DOM and Event Listener in JavaScript 
+      #outer {
+        background-color: #293fbd;
+        height: 300px;
+        width: 400px;
+        margin: 0 auto;
+      }
+      #inner {
+        background-color: #c0c1cc;
+        height: 80%;
+        margin: 36px 72px;
+      }
+      #very-inner {
+        background-color: red;
+        height: 60%;
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1 id="title-banner" title="sort of tooltip">Let's learn DOM and Event Listener in JavaScript 
 				<span style="display: none;">123</span>
 			</h1>
 			<p>Open console. to check the output</p>
@@ -99,13 +99,13 @@
 				<li class="list-items">item 5</li>
 			</ul> -->
 
-			<div id="outer">
+    <!-- <div id="outer">
 				<div id="inner">
 					<div id="very-inner"></div>
 				</div>
-			</div>
+			</div> -->
 
-			<!-- <form>
+    <!-- <form>
 				<div>
 					<label for="name">Name:</label>
 					<input type="text" name="name">
@@ -121,7 +121,7 @@
 				<div id="output"></div>
 			</form> -->
 
-			<!-- <div id="box">
+    <!-- <div id="box">
 				Box
 				<span style="border: 1px solid red; padding: 8px;">Lorem ipsum dolor sit amet.</span>
 			</div>
@@ -131,6 +131,20 @@
 					<button id="btn2">Click me 2</button>
 			</div> -->
 
-			<script src="./004example.js"></script>
-	</body>
+    <h1>Event Delegation</h1>
+    <ul class="wrapper">
+      <li data-entry="1">item 1</li>
+      <li data-entry="2">item 2</li>
+      <li data-entry="3">item 3</li>
+      <li data-entry="4">item 4</li>
+      <li data-entry="5">item 5</li>
+      <li data-entry="6">item 6</li>
+      <li data-entry="7">item 7</li>
+      <li data-entry="8">item 8</li>
+      <li data-entry="9">item 9</li>
+      <li data-entry="10">item 10</li>
+    </ul>
+
+    <script src="./005example.js"></script>
+  </body>
 </html>
