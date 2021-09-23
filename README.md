@@ -1,6 +1,10 @@
 # Javascript concept materials
 
-Here this repo is used to store all the study materials for learning JavaScript.
+Here this repo is used to store all the study materials for learning JavaScript. Please refer to this by cloning or watching this change on GitHub.
+
+```
+If you like the content. Please do give this repo a star.
+```
 
 ## How to use
 
@@ -19,3 +23,4 @@ Here this repo is used to store all the study materials for learning JavaScript.
 | 6      | This & Closure       |
 | 7      | ES5 vs ES6           |
 | 8      | DOM & Event Listener |
+| 9      | Event Loop           |
