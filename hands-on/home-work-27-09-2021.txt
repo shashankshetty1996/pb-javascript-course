@@ -1,0 +1,23 @@
+-> Write the code to access element which is having id as "text"
+
+-> Write the code to access element which is having tag as "h1"
+
+-> Write the code to access element which is having class as "box"
+"<h1>Hello </h1>
+
+-> Change the heading from ""Hello"" to ""Hello World"" using DOM functions"
+"<h1>Hello </h1>
+
+->Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"
+
+-> Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"
+
+-> Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.
+
+-> What’s the difference between window vs document?
+
+-> "How do we implement a function to get elements by attribute?
+
+<div id='foo'>foo</div>
+<div>bar</div>
+<div>baz</div>"
