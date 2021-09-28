@@ -1,25 +1,25 @@
 <mxfile host="65bd71144e">
     <diagram id="28kyqY9DDh-0W7n9ZgY7" name="001 State of promise">
-        <mxGraphModel dx="586" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="509" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="5" value="resolve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="5" value="resolve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="reject" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="4">
+                <mxCell id="6" value="reject" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&lt;em style=&quot;box-sizing: border-box ; color: rgb(27 , 27 , 27) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 16px ; letter-spacing: -0.0444444px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;pending&lt;/em&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;em style=&quot;box-sizing: border-box ; color: rgb(27 , 27 , 27) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 16px ; letter-spacing: -0.0444444px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;pending&lt;/em&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="80" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;em style=&quot;box-sizing: border-box ; color: rgb(27 , 27 , 27) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 16px ; letter-spacing: -0.0444444px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;fulfilled&lt;/em&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="&lt;em style=&quot;box-sizing: border-box ; color: rgb(27 , 27 , 27) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 16px ; letter-spacing: -0.0444444px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;fulfilled&lt;/em&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="240" y="160" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;em style=&quot;box-sizing: border-box ; color: rgb(27 , 27 , 27) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 16px ; letter-spacing: -0.0444444px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;rejected&lt;/em&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="4" value="&lt;em style=&quot;box-sizing: border-box ; color: rgb(27 , 27 , 27) ; font-family: &amp;#34;arial&amp;#34; , , sans-serif ; font-size: 16px ; letter-spacing: -0.0444444px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;rejected&lt;/em&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="480" y="160" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="State of Promise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="7" value="State of Promise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="250" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
             </root>
