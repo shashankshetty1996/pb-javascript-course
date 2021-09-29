@@ -25,3 +25,4 @@ If you like the content. Please do give this repo a star.
 | 8      | DOM & Event Listener |
 | 9      | Event Loop           |
 | 10     | Callback & Promise   |
+| 11     | Storage              |
